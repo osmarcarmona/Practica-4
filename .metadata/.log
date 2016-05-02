@@ -1,0 +1,274 @@
+!SESSION 2016-04-28 04:23:32.368 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_37
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2016-04-28 04:24:02.590
+!MESSAGE External elements location 'C:\Freescale\CW_PA_v10.5.1\eclipse\../PA/../Cross_Tools/WizardEnablement' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2016-04-28 04:24:31.058
+!MESSAGE External elements location 'C:\Freescale\CW_PA_v10.5.1\eclipse\../PA/../Cross_Tools/WizardEnablement' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2016-04-28 04:24:44.248
+!MESSAGE External elements location 'C:\Freescale\CW_PA_v10.5.1\eclipse\../PA/../Cross_Tools/WizardEnablement' does not exist
+
+!ENTRY JythonPlugin:com.freescale.jython.eclipse.JythonPlugin 4 0 2016-04-28 04:24:48.105
+!MESSAGE JythonProvider com.freescale.configuration does not contain the specified directory: C:\Freescale\CW_PA_v10.5.1\eclipse\plugins\com.freescale.configuration_2.0.0.160382-201601212034\jython
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2016-04-28 04:25:09.681
+!MESSAGE Unsupported property id=org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unsupported property id=org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application
+	at org.eclipse.cdt.managedbuilder.internal.buildproperties.BuildProperty.setValue(BuildProperty.java:60)
+	at org.eclipse.cdt.managedbuilder.internal.buildproperties.BuildProperty.<init>(BuildProperty.java:49)
+	at org.eclipse.cdt.managedbuilder.internal.buildproperties.BuildPropertyManager.createProperty(BuildPropertyManager.java:122)
+	at org.eclipse.cdt.managedbuilder.internal.buildproperties.BuildProperties.setProperty(BuildProperties.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:1158)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:646)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:366)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:541)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.loadData(CProjectDescriptionManager.java:1155)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:96)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:204)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:489)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:234)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:420)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:397)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:390)
+	at org.eclipse.cdt.core.model.CoreModel.getProjectDescription(CoreModel.java:1449)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.safeAddProvidedFragments(IndexFactory.java:210)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:106)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1188)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:69)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 0 2016-04-28 04:25:09.682
+!MESSAGE Unsupported property id=org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2016-04-28 04:25:09.684
+!MESSAGE Orphaned CDT build configuration [org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.615064214]: parent extension cfg [org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:226)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:1174)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:646)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:366)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:541)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.loadData(CProjectDescriptionManager.java:1155)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:96)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:204)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:489)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:234)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:420)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:397)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:390)
+	at org.eclipse.cdt.core.model.CoreModel.getProjectDescription(CoreModel.java:1449)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.safeAddProvidedFragments(IndexFactory.java:210)
+	at org.eclipse.cdt.internal.core.index.IndexFactory.getWritableIndex(IndexFactory.java:106)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getWritableIndex(PDOMManager.java:1188)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:69)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.freescale.sa.analysispoints 4 120 2016-04-28 04:25:09.980
+!MESSAGE Internal error
+!STACK 0
+com.freescale.morpho.core.CWException: The function "loadConfig" returned an error condition  (0x80004005)
+	at org.mozilla.xpcom.internal.XPCOMJavaProxyFSL.callXPCOMMethod(Native Method)
+	at org.mozilla.xpcom.internal.XPCOMJavaProxyFSL.invoke(XPCOMJavaProxyFSL.java:143)
+	at $Proxy13.loadConfig(Unknown Source)
+	at com.freescale.sa.analysispoints.Tracepoint.updateProjectPathFromApConfig(Tracepoint.java:1459)
+	at com.freescale.sa.analysispoints.AnalysispointManager$AnalysispointManagerVisitor.handleProjectResourceOpenStateChange(AnalysispointManager.java:891)
+	at com.freescale.sa.analysispoints.AnalysispointManager$AnalysispointManagerVisitor.visit(AnalysispointManager.java:780)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.freescale.sa.analysispoints.AnalysispointManager.resourceChanged(AnalysispointManager.java:661)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:387)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:146)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Errors...Message:  Unknown Plugin Class
+     res: generic failure
+      at: ApSpecializedManagerFactory.cpp line 52
+      on: 04/28/2016  04:25:09
+!SUBENTRY 1 com.freescale.sa.analysispoints 4 0 2016-04-28 04:25:09.991
+!MESSAGE Unknown Plugin Class
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:25:10.019
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.sa.analysispoints 4 120 2016-04-28 04:25:10.070
+!MESSAGE Internal error
+!STACK 0
+com.freescale.morpho.core.CWException: The function "loadConfig" returned an error condition  (0x80004005)
+	at org.mozilla.xpcom.internal.XPCOMJavaProxyFSL.callXPCOMMethod(Native Method)
+	at org.mozilla.xpcom.internal.XPCOMJavaProxyFSL.invoke(XPCOMJavaProxyFSL.java:143)
+	at $Proxy13.loadConfig(Unknown Source)
+	at com.freescale.sa.analysispoints.Tracepoint.loadAnalysispoints(Tracepoint.java:1413)
+	at com.freescale.sa.analysispoints.AnalysispointManager.loadAnalysispoints(AnalysispointManager.java:265)
+	at com.freescale.sa.analysispoints.AnalysispointManager$AnalysispointManagerVisitor.handleProjectResourceOpenStateChange(AnalysispointManager.java:894)
+	at com.freescale.sa.analysispoints.AnalysispointManager$AnalysispointManagerVisitor.visit(AnalysispointManager.java:780)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.freescale.sa.analysispoints.AnalysispointManager.resourceChanged(AnalysispointManager.java:661)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:387)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:146)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Errors...Message:  Unknown Plugin Class
+     res: generic failure
+      at: ApSpecializedManagerFactory.cpp line 52
+      on: 04/28/2016  04:25:10
+!SUBENTRY 1 com.freescale.sa.analysispoints 4 0 2016-04-28 04:25:10.071
+!MESSAGE Unknown Plugin Class
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:25:11.911
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:25:11.912
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_OpenSDA
+
+!ENTRY com.freescale.core.debugger.cdt 4 2 2016-04-28 04:25:11.931
+!MESSAGE Problems occurred when invoking code from plug-in: "com.freescale.core.debugger.cdt".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unknown target type: com.freescale.cw.system.kinetis.KL25Z.KL25Z128M4 
+RSE Resource: gsc_sch_MKL25Z128_FLASH_OpenSDA Target
+	at com.freescale.cdt.debug.cw.core.system.model.CWHostBareboardSystem.updateSystemType(CWHostBareboardSystem.java:787)
+	at com.freescale.cdt.debug.cw.core.system.model.CWHostBareboardSystem.migrate(CWHostBareboardSystem.java:676)
+	at com.freescale.cdt.debug.cw.core.system.model.CWHostBareboardSystem.handleSystemModelResourceChanged(CWHostBareboardSystem.java:980)
+	at com.freescale.cdt.debug.cw.core.system.model.SystemModelChangeHandler$1.run(SystemModelChangeHandler.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.freescale.cdt.debug.cw.core.system.model.SystemModelChangeHandler.run(SystemModelChangeHandler.java:250)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.freescale.core.debugger.cdt 4 0 2016-04-28 04:25:11.931
+!MESSAGE Unknown target type: com.freescale.cw.system.kinetis.KL25Z.KL25Z128M4 
+RSE Resource: gsc_sch_MKL25Z128_FLASH_OpenSDA Target
+!SUBENTRY 1 com.freescale.core.debugger.cdt 4 0 2016-04-28 04:25:11.931
+!MESSAGE Unknown target type: com.freescale.cw.system.kinetis.KL25Z.KL25Z128M4 
+RSE Resource: gsc_sch_MKL25Z128_FLASH_OpenSDA Target
+
+!ENTRY com.freescale.core.debugger.cdt 4 2 2016-04-28 04:25:11.934
+!MESSAGE Problems occurred when invoking code from plug-in: "com.freescale.core.debugger.cdt".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unknown target type: com.freescale.cw.system.kinetis.KL25Z.KL25Z128M4 
+RSE Resource: gsc_sch_MKL25Z128_FLASH_PnE U-MultiLink Target
+	at com.freescale.cdt.debug.cw.core.system.model.CWHostBareboardSystem.updateSystemType(CWHostBareboardSystem.java:787)
+	at com.freescale.cdt.debug.cw.core.system.model.CWHostBareboardSystem.migrate(CWHostBareboardSystem.java:676)
+	at com.freescale.cdt.debug.cw.core.system.model.CWHostBareboardSystem.handleSystemModelResourceChanged(CWHostBareboardSystem.java:980)
+	at com.freescale.cdt.debug.cw.core.system.model.SystemModelChangeHandler$1.run(SystemModelChangeHandler.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.freescale.cdt.debug.cw.core.system.model.SystemModelChangeHandler.run(SystemModelChangeHandler.java:250)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.freescale.core.debugger.cdt 4 0 2016-04-28 04:25:11.934
+!MESSAGE Unknown target type: com.freescale.cw.system.kinetis.KL25Z.KL25Z128M4 
+RSE Resource: gsc_sch_MKL25Z128_FLASH_PnE U-MultiLink Target
+!SUBENTRY 1 com.freescale.core.debugger.cdt 4 0 2016-04-28 04:25:11.934
+!MESSAGE Unknown target type: com.freescale.cw.system.kinetis.KL25Z.KL25Z128M4 
+RSE Resource: gsc_sch_MKL25Z128_FLASH_PnE U-MultiLink Target
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:25:11.936
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:25:11.963
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:25:11.964
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_PnE U-MultiLink
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-28 04:25:14.128
+!MESSAGE Indexed 'gsc_sch_MKL25Z128' (21 sources, 32 headers) in 2.20 sec: 1,069 declarations; 1,558 references; 14 unresolved inclusions; 10 syntax errors; 493 unresolved names (15.80%)
+
+!ENTRY com.freescale.core.debugger.cdt 4 150 2016-04-28 04:38:46.095
+!MESSAGE Error creating session: Invalid target type selection in connection "gsc_sch_MKL25Z128_FLASH_OpenSDA"
+
+!ENTRY com.freescale.core.debugger.cdt 4 150 2016-04-28 04:39:08.132
+!MESSAGE Error creating session: Invalid target type selection in connection "gsc_sch_MKL25Z128_FLASH_OpenSDA"
+
+!ENTRY com.freescale.core.debugger.cdt 4 150 2016-04-28 04:40:46.977
+!MESSAGE Error creating session: Invalid target type selection in connection "gsc_sch_MKL25Z128_FLASH_OpenSDA"
+
+!ENTRY com.freescale.core.debugger.cdt 4 150 2016-04-28 04:41:24.206
+!MESSAGE Error creating session: Invalid target type selection in connection "gsc_sch_MKL25Z128_FLASH_OpenSDA"
+
+!ENTRY org.eclipse.ui 4 4 2016-04-28 04:41:24.222
+!MESSAGE Part already exists in page layout: org.eclipse.cdt.dsf.debug.ui.disassembly.view.
+
+!ENTRY org.eclipse.ui 4 4 2016-04-28 04:41:24.224
+!MESSAGE Part already exists in page layout: org.eclipse.cdt.dsf.debug.ui.disassembly.view.
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:41:45.337
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:41:45.338
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_OpenSDA
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:41:45.809
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:41:45.973
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:41:45.974
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_OpenSDA
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:41:46.140
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:41:46.142
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_OpenSDA
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:41:46.423
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:41:46.425
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_OpenSDA
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:41:53.607
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:41:53.608
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_OpenSDA
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:42:01.668
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:42:01.669
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_OpenSDA
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:42:10.147
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:42:10.148
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_PnE U-MultiLink
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:42:10.465
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:42:10.470
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:42:11.521
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 2 0 2016-04-28 04:42:11.523
+!MESSAGE Missing connection type in RSE host: gsc_sch_MKL25Z128_FLASH_OpenSDA
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:42:11.882
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm
+
+!ENTRY com.freescale.core.debugger.cdt 1 0 2016-04-28 04:42:11.886
+!MESSAGE Unknown connection type id: com.pemicro.mcu.debug.connections.pne.arm

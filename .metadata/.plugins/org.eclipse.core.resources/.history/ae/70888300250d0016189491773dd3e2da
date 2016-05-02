@@ -1,0 +1,159 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"../Sources/gpio.c" \
+"../Sources/io.c" \
+"../Sources/libs.c" \
+"../Sources/main.c" \
+"../Sources/mcg.c" \
+"../Sources/nvic.c" \
+"../Sources/sa_mtb.c" \
+"../Sources/sysinit.c" \
+"../Sources/uart.c" \
+
+C_SRCS += \
+../Sources/gpio.c \
+../Sources/io.c \
+../Sources/libs.c \
+../Sources/main.c \
+../Sources/mcg.c \
+../Sources/nvic.c \
+../Sources/sa_mtb.c \
+../Sources/sysinit.c \
+../Sources/uart.c \
+
+OBJS += \
+./Sources/gpio.o \
+./Sources/io.o \
+./Sources/libs.o \
+./Sources/main.o \
+./Sources/mcg.o \
+./Sources/nvic.o \
+./Sources/sa_mtb.o \
+./Sources/sysinit.o \
+./Sources/uart.o \
+
+C_DEPS += \
+./Sources/gpio.d \
+./Sources/io.d \
+./Sources/libs.d \
+./Sources/main.d \
+./Sources/mcg.d \
+./Sources/nvic.d \
+./Sources/sa_mtb.d \
+./Sources/sysinit.d \
+./Sources/uart.d \
+
+OBJS_QUOTED += \
+"./Sources/gpio.o" \
+"./Sources/io.o" \
+"./Sources/libs.o" \
+"./Sources/main.o" \
+"./Sources/mcg.o" \
+"./Sources/nvic.o" \
+"./Sources/sa_mtb.o" \
+"./Sources/sysinit.o" \
+"./Sources/uart.o" \
+
+C_DEPS_QUOTED += \
+"./Sources/gpio.d" \
+"./Sources/io.d" \
+"./Sources/libs.d" \
+"./Sources/main.d" \
+"./Sources/mcg.d" \
+"./Sources/nvic.d" \
+"./Sources/sa_mtb.d" \
+"./Sources/sysinit.d" \
+"./Sources/uart.d" \
+
+OBJS_OS_FORMAT += \
+./Sources/gpio.o \
+./Sources/io.o \
+./Sources/libs.o \
+./Sources/main.o \
+./Sources/mcg.o \
+./Sources/nvic.o \
+./Sources/sa_mtb.o \
+./Sources/sysinit.o \
+./Sources/uart.o \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Sources/gpio.o: ../Sources/gpio.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #1 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/gpio.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/gpio.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/io.o: ../Sources/io.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #2 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/io.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/io.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/libs.o: ../Sources/libs.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #3 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/libs.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/libs.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/main.o: ../Sources/main.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #4 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/main.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/main.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/mcg.o: ../Sources/mcg.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #5 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/mcg.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/mcg.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/nvic.o: ../Sources/nvic.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #6 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/nvic.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/nvic.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/sa_mtb.o: ../Sources/sa_mtb.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #7 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/sa_mtb.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/sa_mtb.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/sysinit.o: ../Sources/sysinit.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #8 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/sysinit.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/sysinit.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/uart.o: ../Sources/uart.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #9 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/uart.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/uart.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

@@ -1,0 +1,23 @@
+/****************************************************************************
+ * Project developed as a simple Blink the LED's to 
+ * demonstrate basic CodeWarrior functionality and capability.
+ * Borrowed from Freedom Example Projects: Blinky
+ * 
+ * Date: 11 Sept 2012
+ * Author: M. Ruthenbeck
+ * Revision Level 1.0
+ */
+#ifndef RGB_LEDS_H                       /* To avoid double inclusion */
+#define RGB_LEDS_H
+
+
+void init_leds(void);
+void app_rgb_led(void);
+void state_machine(void);
+void inputsInit();
+void inputsRead();
+void player();
+
+
+#endif /* RGB_LEDS_H */
+
